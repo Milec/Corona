@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160">
+<rect width="560" height="160" fill="#080a12"/>
+<g transform="translate(20 8) scale(0.86)">
+<defs>
+  <radialGradient id="fld" cx="50%" cy="42%" r="70%">
+    <stop offset="0%" stop-color="#0d1830"/><stop offset="60%" stop-color="#070c1c"/><stop offset="100%" stop-color="#03050c"/>
+  </radialGradient>
+  <radialGradient id="disc" cx="46%" cy="42%" r="62%">
+    <stop offset="0%" stop-color="#0a1122"/><stop offset="70%" stop-color="#05070f"/><stop offset="100%" stop-color="#020308"/>
+  </radialGradient>
+  <radialGradient id="cor" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffffff"/><stop offset="34%" stop-color="#cfeeff"/><stop offset="64%" stop-color="#66b8f2"/><stop offset="100%" stop-color="#1b4f96" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="corGrey" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e7ecf4"/><stop offset="45%" stop-color="#9aa6bc"/><stop offset="100%" stop-color="#4a5568" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#59647a"/><stop offset="50%" stop-color="#e6ecf6"/><stop offset="100%" stop-color="#4a5568"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#f4e9c2"/><stop offset="50%" stop-color="#d3ad55"/><stop offset="100%" stop-color="#8a6a26"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<circle cx="64" cy="60" r="52" fill="#8792a6" opacity="0.20" filter="url(#soft)"/>
+
+<circle cx="64" cy="60" r="55" fill="#5a6478"/>
+<circle cx="64" cy="60" r="51" fill="url(#fld)"/>
+<circle cx="64" cy="60" r="49" fill="none" stroke="#8792a6" stroke-width="0.8" opacity="0.5"/>
+<circle cx="64" cy="60" r="21" fill="none" stroke="url(#corGrey)" stroke-width="2" opacity="0.7"/>
+<circle cx="64" cy="60" r="21.5" fill="none" stroke="#aeb9cc" stroke-width="0.8" opacity="0.5"/>
+<circle cx="64" cy="60" r="21" fill="url(#disc)"/>
+
+<path d="M 64.0 96 L 68.0 100 L 64.0 104 L 60.0 100 Z" fill="#9aa6bc"/>
+</g>
+<text x="75" y="150" fill="#cfe0ff" font-family="serif" font-size="14" text-anchor="middle" letter-spacing="2">ASPIRANT</text>
+<g transform="translate(155 8) scale(0.86)">
+<defs>
+  <radialGradient id="fld" cx="50%" cy="42%" r="70%">
+    <stop offset="0%" stop-color="#0d1830"/><stop offset="60%" stop-color="#070c1c"/><stop offset="100%" stop-color="#03050c"/>
+  </radialGradient>
+  <radialGradient id="disc" cx="46%" cy="42%" r="62%">
+    <stop offset="0%" stop-color="#0a1122"/><stop offset="70%" stop-color="#05070f"/><stop offset="100%" stop-color="#020308"/>
+  </radialGradient>
+  <radialGradient id="cor" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffffff"/><stop offset="34%" stop-color="#cfeeff"/><stop offset="64%" stop-color="#66b8f2"/><stop offset="100%" stop-color="#1b4f96" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="corGrey" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e7ecf4"/><stop offset="45%" stop-color="#9aa6bc"/><stop offset="100%" stop-color="#4a5568" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#59647a"/><stop offset="50%" stop-color="#e6ecf6"/><stop offset="100%" stop-color="#4a5568"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#f4e9c2"/><stop offset="50%" stop-color="#d3ad55"/><stop offset="100%" stop-color="#8a6a26"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<circle cx="64" cy="60" r="52" fill="#7fb3e6" opacity="0.20" filter="url(#soft)"/>
+
+<circle cx="64" cy="60" r="55" fill="#3f6aad"/>
+<circle cx="64" cy="60" r="51" fill="url(#fld)"/>
+<circle cx="64" cy="60" r="49" fill="none" stroke="#7fb3e6" stroke-width="0.8" opacity="0.5"/>
+<circle cx="64" cy="60" r="30" fill="url(#cor)" opacity="0.28" filter="url(#soft)"/>
+<path d="M 44.06 50.70 A 22 22 0 0 1 80.85 45.86" fill="none" stroke="url(#cor)" stroke-width="4" filter="url(#glow)"/>
+<path d="M 44.06 50.70 A 22 22 0 0 1 80.85 45.86" fill="none" stroke="#eaf6ff" stroke-width="1.3"/>
+<circle cx="64" cy="60" r="21" fill="url(#disc)"/>
+
+<path d="M 55 96 L 64 102 L 73 96" fill="none" stroke="#bfe0ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="210" y="150" fill="#cfe0ff" font-family="serif" font-size="14" text-anchor="middle" letter-spacing="2">SQUIRE</text>
+<g transform="translate(290 8) scale(0.86)">
+<defs>
+  <radialGradient id="fld" cx="50%" cy="42%" r="70%">
+    <stop offset="0%" stop-color="#0d1830"/><stop offset="60%" stop-color="#070c1c"/><stop offset="100%" stop-color="#03050c"/>
+  </radialGradient>
+  <radialGradient id="disc" cx="46%" cy="42%" r="62%">
+    <stop offset="0%" stop-color="#0a1122"/><stop offset="70%" stop-color="#05070f"/><stop offset="100%" stop-color="#020308"/>
+  </radialGradient>
+  <radialGradient id="cor" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffffff"/><stop offset="34%" stop-color="#cfeeff"/><stop offset="64%" stop-color="#66b8f2"/><stop offset="100%" stop-color="#1b4f96" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="corGrey" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e7ecf4"/><stop offset="45%" stop-color="#9aa6bc"/><stop offset="100%" stop-color="#4a5568" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#59647a"/><stop offset="50%" stop-color="#e6ecf6"/><stop offset="100%" stop-color="#4a5568"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#f4e9c2"/><stop offset="50%" stop-color="#d3ad55"/><stop offset="100%" stop-color="#8a6a26"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<circle cx="64" cy="60" r="52" fill="#6cc6ff" opacity="0.20" filter="url(#soft)"/>
+<g transform="rotate(33 64 60)"><g>
+      <path d="M64 8 L66.4 30 L65.2 84 L62.8 84 L61.6 30 Z" fill="url(#steel)" stroke="#2b3242" stroke-width="0.5"/>
+      <rect x="55" y="83" width="18" height="3.2" rx="1.2" fill="url(#gold)"/>
+      <rect x="62.6" y="86" width="2.8" height="26" rx="1.2" fill="#26304a"/>
+      <circle cx="64" cy="115" r="4" fill="url(#gold)"/>
+    </g></g><g transform="rotate(-33 64 60)"><g>
+      <path d="M64 8 L66.4 30 L65.2 84 L62.8 84 L61.6 30 Z" fill="url(#steel)" stroke="#2b3242" stroke-width="0.5"/>
+      <rect x="55" y="83" width="18" height="3.2" rx="1.2" fill="url(#gold)"/>
+      <rect x="62.6" y="86" width="2.8" height="26" rx="1.2" fill="#26304a"/>
+      <circle cx="64" cy="115" r="4" fill="url(#gold)"/>
+    </g></g>
+<circle cx="64" cy="60" r="55" fill="#4a8fe0"/>
+<circle cx="64" cy="60" r="51" fill="url(#fld)"/>
+<circle cx="64" cy="60" r="49" fill="none" stroke="#6cc6ff" stroke-width="0.8" opacity="0.5"/>
+<circle cx="64" cy="60" r="32" fill="url(#cor)" opacity="0.4" filter="url(#soft)"/>
+<g fill="url(#cor)" filter="url(#glow)"><path d="M 63.01 41.03 L 64.00 26.00 L 64.99 41.03 Z"/>
+<path d="M 71.34 42.47 L 74.62 37.94 L 73.13 43.34 Z"/>
+<path d="M 78.21 47.39 L 87.92 40.92 L 79.45 48.95 Z"/>
+<path d="M 82.28 54.81 L 85.88 55.01 L 82.72 56.75 Z"/>
+<path d="M 82.72 63.25 L 97.15 67.57 L 82.28 65.19 Z"/>
+<path d="M 79.45 71.05 L 83.67 75.69 L 78.21 72.61 Z"/>
+<path d="M 73.13 76.66 L 76.98 86.96 L 71.34 77.53 Z"/>
+<path d="M 64.99 78.97 L 64.00 81.76 L 63.01 78.97 Z"/>
+<path d="M 56.66 77.53 L 49.25 90.63 L 54.87 76.66 Z"/>
+<path d="M 49.79 72.61 L 44.86 75.26 L 48.55 71.05 Z"/>
+<path d="M 45.72 65.19 L 34.17 66.81 L 45.28 63.25 Z"/>
+<path d="M 45.28 56.75 L 42.12 55.01 L 45.72 54.81 Z"/>
+<path d="M 48.55 48.95 L 37.42 38.80 L 49.79 47.39 Z"/>
+<path d="M 54.87 43.34 L 53.08 37.33 L 56.66 42.47 Z"/></g>
+<circle cx="64" cy="60" r="22" fill="none" stroke="url(#cor)" stroke-width="4" filter="url(#glow)"/>
+<circle cx="64" cy="60" r="22" fill="none" stroke="#eaf6ff" stroke-width="1.3"/>
+<circle cx="64" cy="60" r="21" fill="url(#disc)"/>
+
+<path d="M 55 92 L 64 98 L 73 92" fill="none" stroke="#dff0ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 55 98 L 64 104 L 73 98" fill="none" stroke="#dff0ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="345" y="150" fill="#cfe0ff" font-family="serif" font-size="14" text-anchor="middle" letter-spacing="2">BLADE</text>
+<g transform="translate(425 8) scale(0.86)">
+<defs>
+  <radialGradient id="fld" cx="50%" cy="42%" r="70%">
+    <stop offset="0%" stop-color="#0d1830"/><stop offset="60%" stop-color="#070c1c"/><stop offset="100%" stop-color="#03050c"/>
+  </radialGradient>
+  <radialGradient id="disc" cx="46%" cy="42%" r="62%">
+    <stop offset="0%" stop-color="#0a1122"/><stop offset="70%" stop-color="#05070f"/><stop offset="100%" stop-color="#020308"/>
+  </radialGradient>
+  <radialGradient id="cor" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffffff"/><stop offset="34%" stop-color="#cfeeff"/><stop offset="64%" stop-color="#66b8f2"/><stop offset="100%" stop-color="#1b4f96" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="corGrey" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e7ecf4"/><stop offset="45%" stop-color="#9aa6bc"/><stop offset="100%" stop-color="#4a5568" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#59647a"/><stop offset="50%" stop-color="#e6ecf6"/><stop offset="100%" stop-color="#4a5568"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#f4e9c2"/><stop offset="50%" stop-color="#d3ad55"/><stop offset="100%" stop-color="#8a6a26"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<circle cx="64" cy="60" r="52" fill="#8fd3ff" opacity="0.20" filter="url(#soft)"/>
+
+<circle cx="64" cy="60" r="55" fill="url(#gold)"/>
+<circle cx="64" cy="60" r="51" fill="url(#fld)"/>
+<circle cx="64" cy="60" r="49" fill="none" stroke="#8fd3ff" stroke-width="0.8" opacity="0.5"/>
+<circle cx="64" cy="60" r="34" fill="url(#cor)" opacity="0.45" filter="url(#soft)"/>
+<g fill="url(#cor)" filter="url(#glow)"><path d="M 63.07 41.02 L 64.00 25.00 L 64.93 41.02 Z"/>
+<path d="M 70.40 42.11 L 73.64 36.72 L 72.12 42.82 Z"/>
+<path d="M 76.76 45.92 L 86.27 37.73 L 78.08 47.24 Z"/>
+<path d="M 81.18 51.88 L 85.34 51.16 L 81.89 53.60 Z"/>
+<path d="M 82.98 59.07 L 99.00 60.00 L 82.98 60.93 Z"/>
+<path d="M 81.89 66.40 L 87.93 69.91 L 81.18 68.12 Z"/>
+<path d="M 78.08 72.76 L 85.78 81.78 L 76.76 74.08 Z"/>
+<path d="M 72.12 77.18 L 72.57 80.69 L 70.40 77.89 Z"/>
+<path d="M 64.93 78.98 L 64.00 95.00 L 63.07 78.98 Z"/>
+<path d="M 57.60 77.89 L 54.36 83.28 L 55.88 77.18 Z"/>
+<path d="M 51.24 74.08 L 41.73 82.27 L 49.92 72.76 Z"/>
+<path d="M 46.82 68.12 L 42.66 68.84 L 46.11 66.40 Z"/>
+<path d="M 45.02 60.93 L 29.00 60.00 L 45.02 59.07 Z"/>
+<path d="M 46.11 53.60 L 40.07 50.09 L 46.82 51.88 Z"/>
+<path d="M 49.92 47.24 L 42.22 38.22 L 51.24 45.92 Z"/>
+<path d="M 55.88 42.82 L 55.43 39.31 L 57.60 42.11 Z"/></g>
+<circle cx="64" cy="60" r="22" fill="none" stroke="url(#cor)" stroke-width="4.5" filter="url(#glow)"/>
+<circle cx="64" cy="60" r="22" fill="none" stroke="#ffffff" stroke-width="1.4"/>
+<circle cx="64" cy="60" r="21" fill="url(#disc)"/>
+<g filter="url(#glow)"><path d="M 34.29 61.82 Q 30.64 60.00 29.49 54.12 Q 31.64 55.89 34.29 61.82 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 34.57 71.83 Q 30.52 71.30 27.50 66.13 Q 30.12 67.09 34.57 71.83 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 38.12 81.18 Q 34.12 82.02 29.57 78.12 Q 32.36 78.18 38.12 81.18 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 44.56 88.85 Q 41.05 90.95 35.47 88.77 Q 38.13 87.90 44.56 88.85 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 53.15 93.97 Q 50.54 97.11 44.55 96.89 Q 46.77 95.19 53.15 93.97 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 62.95 95.98 Q 61.52 99.81 55.79 101.56 Q 57.33 99.24 62.95 95.98 Z" fill="url(#gold)" opacity="0.92"/><path d="M 93.71 61.82 Q 97.36 60.00 98.51 54.12 Q 96.36 55.89 93.71 61.82 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 78.64 39.81 Q 79.39 35.79 75.40 31.33 Q 75.51 34.11 78.64 39.81 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 51.99 38.51 Q 49.25 35.48 43.27 35.96 Q 45.56 37.55 51.99 38.51 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 34.84 58.95 Q 30.77 59.30 27.54 64.34 Q 30.19 63.49 34.84 58.95 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 40.75 84.96 Q 38.57 88.42 40.64 94.04 Q 41.56 91.41 40.75 84.96 Z" fill="url(#gold)" opacity="0.92"/>
+<path d="M 65.05 95.98 Q 66.48 99.81 72.21 101.56 Q 70.67 99.24 65.05 95.98 Z" fill="url(#gold)" opacity="0.92"/></g>
+<g filter="url(#glow)">
+  <path d="M50 26 L50 15 L57 21 L64 12 L71 21 L78 15 L78 26 Z" fill="url(#gold)" stroke="#8a6a26" stroke-width="0.6"/>
+  <circle cx="64" cy="10" r="2.4" fill="#fff6da"/>
+</g>
+</g>
+<text x="480" y="150" fill="#cfe0ff" font-family="serif" font-size="14" text-anchor="middle" letter-spacing="2">SOVEREIGN</text>
+</svg>

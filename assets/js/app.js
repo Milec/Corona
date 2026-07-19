@@ -109,13 +109,13 @@
   ];
 
   const RANKS = [
-    { name: "Aspirant", tier: "Nameless", color: "#5c6379",
+    { name: "Aspirant", tier: "Nameless", color: "#5c6379", insignia: "aspirant",
       desc: "Come to the order seeking membership and under evaluation. An Aspirant who shows no Solarian aptitude within a defined period is respectfully turned away — the order cannot train what isn't there." },
-    { name: "Squire", tier: "In training", color: "#7fa8d8",
+    { name: "Squire", tier: "In training", color: "#7fa8d8", insignia: "squire",
       desc: "Shown enough promise to enter formal training, but not yet Proven. Assigned to a Blade for mentorship; not yet a full member of the order.", marcus: "Marcus trained to this rank under the Blade Phoenix." },
-    { name: "Blade", tier: "Full knight", color: "#6cc6ff",
+    { name: "Blade", tier: "Full knight", color: "#6cc6ff", insignia: "blade",
       desc: "Has completed the Proving and demonstrated both Solarian ability and mastery. Blades take missions, lead squire units, or operate alone.", marcus: "By completing his Proving — and earning the name Corona — Marcus claimed his place here, moments before his capture." },
-    { name: "Sovereign", tier: "Supreme command", color: "#e8c26a",
+    { name: "Sovereign", tier: "Supreme command", color: "#e8c26a", insignia: "sovereign",
       desc: "The order's supreme commander over all doctrine and strategy. Serves until death or until challenged and defeated by a member of Blade rank or above. The current Sovereign is Solas." },
   ];
 
@@ -470,9 +470,12 @@
       li.className = "rank-item" + (r.marcus && r.name === "Blade" ? " is-marcus" : "");
       li.style.setProperty("--rc", r.color);
       li.innerHTML =
+        (r.insignia ? '<img class="rank-insignia" src="assets/img/ranks/' + r.insignia + '.svg" alt="' + r.name + ' rank insignia" loading="lazy">' : "") +
+        '<div class="rank-info">' +
         '<div class="rank-top"><span class="rank-name">' + r.name + '</span><span class="rank-tier">' + r.tier + "</span></div>" +
         '<p class="rank-desc">' + r.desc + "</p>" +
-        (r.marcus ? '<span class="rank-flag">' + r.marcus + "</span>" : "");
+        (r.marcus ? '<span class="rank-flag">' + r.marcus + "</span>" : "") +
+        "</div>";
       ol.appendChild(li);
     });
   }
