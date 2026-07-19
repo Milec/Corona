@@ -6,6 +6,8 @@ aliases:
 
 ## Overview
 
+![[eclipse-knights-emblem.svg]]
+
 **Current Sovereign**: [[Solas]]
 
 The Eclipse Knights are a hyper-militaristic order of [[Solarian]] warriors operating beyond the borders of the Algalterian Galactic Empire in the outer fringes of known space. Founded by survivors of the [[Imperial Conquest]], the order exists for a single purpose: to preserve true Solarian ability, refine it to its highest possible expression, and ensure it is never again extinguished by those who fear it.
