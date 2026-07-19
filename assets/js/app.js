@@ -515,9 +515,12 @@
 
   function initReveal() {
     if (reduceMotion) { $$(".reveal").forEach((e) => e.classList.add("in")); $("#sevenCount")?.classList.add("in"); return; }
+    // threshold:0 so elements taller than the viewport still reveal — a tall
+    // element can never reach an 8% intersection ratio, which would leave it
+    // stuck invisible (a huge blank gap) on small screens.
     const io = new IntersectionObserver((ents) => {
       ents.forEach((en) => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
-    }, { rootMargin: "0px 0px -12% 0px", threshold: 0.08 });
+    }, { rootMargin: "0px 0px -10% 0px", threshold: 0 });
     $$(".reveal").forEach((e) => io.observe(e));
     const sc = $("#sevenCount");
     if (sc) new IntersectionObserver((e, o) => { e.forEach((x) => { if (x.isIntersecting) { sc.classList.add("in"); o.disconnect(); } }); }).observe(sc);
