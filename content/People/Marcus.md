@@ -157,6 +157,8 @@ And never enough.
 
 ## Exile & Training
 
+![[marcus-armor.png]]
+
 Marcus came to [[The Eclipse Knights]] as a young child — old enough to remember the nobility and status of Helios Prime, but young enough to be shaped entirely by the order. He trained as an Aspirant, then a Squire, developing under the mentorship of a Blade named [[Phoenix]] assigned to his development.
 
 He received no special treatment despite being a Blue Sun. The order acknowledged that he held the potential to change worlds — but potential is not the thing they measure. He lacked what matters most: strength. Should he one day earn it, the order would welcome him as a leader and an ally. Until then, he would earn everything else the same way as anyone.
