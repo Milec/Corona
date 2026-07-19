@@ -94,6 +94,8 @@
       blurb: "A false history is installed: solar power was always the nobility's alone. Emulation technology replaces the real thing in the Heir Candidacy System." },
     { era: "The Present Cycle", title: "The Birth of Marcus", color: "#7fa8d8", entry: "marcus",
       blurb: "Seventh child of the seventh house — silver hair, violet eyes. Unremarkable by noble standards. His gene treatments read as average." },
+    { era: "The Present Cycle", title: "The Tenth Year Ball", color: "#e0a83c", entry: "juno",
+      blurb: "Among nearly fifty rival siblings, one becomes something else. Beneath the stained solar glass of the Bellator ballroom, Marcus and Juno of House Aurum share their first kiss." },
     { era: "The Present Cycle", title: "The Manifestation", color: "#6cc6ff", entry: "marcus",
       blurb: "At twelve, the night he wins the Proving Tournament, the western wing of the Bellator estate erupts in blue fire. His mother finds a true Solarian." },
     { era: "The Present Cycle", title: "Exile & Training", color: "#a7dbff", entry: "eclipse-knights",

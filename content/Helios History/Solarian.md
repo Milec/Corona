@@ -145,6 +145,8 @@ The destruction of manifestation knowledge, the purge of known Solarians, and th
 ## Notable Solarians
 
 - **[[Marcus]]** (A-7527, *Corona*) — Blue Sun, anomalous manifestation from birth. The only confirmed genuine Solarian of the current era. Born into [[House Bellator]]'s cycle, exiled as a child, trained by [[The Eclipse Knights]] to Squire rank, currently imprisoned by the Algalterian Empire.
+- **[[The First Emperor]]** — the first and only *other* Blue Sun in recorded Helian history; founder of the [[Caerulius Bloodline]] and the [[Helios Hegemony]], millennia before Marcus.
+- **[[Phoenix]]** — a Green Sun Blade of the Eclipse Knights, and the knight who trained Marcus.
 
 ---
 

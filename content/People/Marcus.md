@@ -95,7 +95,7 @@ Some siblings challenged him openly. Others learned to smile before plotting beh
 
 Marcus endured much of it through the companionship of several children from [[House Aegis]] and [[House Vox]], though most of their names have long faded from memory. One never did.
 
-Juno Caerulius Aurum Prima.
+[[Juno Caerulius Aurum Prima|Juno Caerulius Aurum Prima]].
 
 The two became inseparable during their early years, spending countless hours together in the estate libraries, combat simulations, and formal banquets. Affection bloomed quietly between them, in defiance of every layer of noble expectation and political scrutiny around them. At the Succession Cycle's Tenth Year Ball, held to celebrate the coming maturity of the candidate children, they shared their first kiss beneath the stained solar glass of the Bellator ballroom.
 
@@ -125,7 +125,7 @@ Near midnight the western wing of the Bellator Estate erupted in blue fire.
 
 The explosion killed dozens of servants instantly and wounded several noble children. At the center of the devastation lay Marcus alone, surrounded by warped metal, molten stone, and burning glass.
 
-Moments later his mother found him.
+Moments later his mother, [[Lucia Ensis|Lucia]], found him.
 
 A faint blue aura radiated from his body. His skin burned hot enough to blister flesh at a touch.
 
@@ -157,11 +157,11 @@ And never enough.
 
 ## Exile & Training
 
-Marcus came to [[The Eclipse Knights]] as a young child — old enough to remember the nobility and status of Helios Prime, but young enough to be shaped entirely by the order. He trained as an Aspirant, then a Squire, developing under the mentorship of a Blade named Phoenix assigned to his development.
+Marcus came to [[The Eclipse Knights]] as a young child — old enough to remember the nobility and status of Helios Prime, but young enough to be shaped entirely by the order. He trained as an Aspirant, then a Squire, developing under the mentorship of a Blade named [[Phoenix]] assigned to his development.
 
 He received no special treatment despite being a Blue Sun. The order acknowledged that he held the potential to change worlds — but potential is not the thing they measure. He lacked what matters most: strength. Should he one day earn it, the order would welcome him as a leader and an ally. Until then, he would earn everything else the same way as anyone.
 
-As a Squire he went on countless missions with Phoenix, training and learning his own abilities while helping maintain a rough peace in the outer rim. The order did this under no pretext of altruism — it is simply easier to justify testing your strength against those who have bad public relations.
+As a Squire he went on countless missions with [[Phoenix]], training and learning his own abilities while helping maintain a rough peace in the outer rim. The order did this under no pretext of altruism — it is simply easier to justify testing your strength against those who have bad public relations.
 
 He was eventually dispatched on his Proving — a solo trial into Imperial space to locate, engage, and defeat a designated target. He succeeded. On his way out of Imperial territory, he was identified and apprehended by Imperial forces. 
 
@@ -223,6 +223,11 @@ To return to [[Helios Prime]]. To see what was done to his people undone. He has
 
 ## Connections
 
+- [[Lucia Ensis|Lucia Ensis]] — his mother, who staged his death to save him
+- [[Juno Caerulius Aurum Prima|Juno]] — his first love, who believes him dead
+- [[Phoenix]] — the Blade who trained him
+- [[Solas]] — the Sovereign who dispatched, and abandoned, him
+- [[The First Emperor]] — the only other Blue Sun in Helian history
 - [[House Bellator]] — mother's house
 - [[Caerulius Bloodline]] — father's lineage
 - [[The Eclipse Knights]] — the order that raised and trained him
