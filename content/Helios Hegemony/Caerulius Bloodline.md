@@ -1,5 +1,5 @@
 **Current Hegemon:** 
-*Aurion Caerulius Genesis Prima*
+*[[The Hegemon|Aurion Caerulius Genesis Prima]]*
 
 The [[Caerulius Bloodline]] descends from the [[The First Emperor|first Helian emperor]], a warrior-king said to possess unmatched Solarian power. Ancient records describe him as the [[The First Emperor|first and only Blue Sun]], a phenomenon never seen again in Helian history, from which the bloodline takes its name. Through conquest, diplomacy, and sheer force of will, he united the seven continents of [[Helios Prime]] beneath a single banner and forged the foundation of the [[Helios Hegemony]]. To prevent the great powers from fracturing after his death, he bound [[The Seven Noble Dynasties]] to the imperial throne through blood, creating the tradition known as the Imperial Offering.
 

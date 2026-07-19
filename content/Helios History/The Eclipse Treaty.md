@@ -15,7 +15,7 @@ The Hegemony formally surrendered all colonies, installations, and territorial c
 The Hegemony was permitted to retain its internal governmental structure — the [[Caerulius Bloodline]] throne, the [[Patrilium]], the [[Matrilium]], the [[Heir Candidacy System]], and [[The Seven Noble Dynasties]]. The Empire does not govern the Hegemony directly. It does not need to.
 
 **Imperial Oversight**
-An Imperial observer presence was established on Helios Prime. Officially advisory. In practice, any action taken by the Hegemony that conflicts with Imperial interests is subject to Imperial review and reversal. The distinction between nominal sovereignty and genuine governance has narrowed steadily in the centuries since the treaty was signed.
+An [[The Imperial Observers|Imperial observer presence]] was established on Helios Prime. Officially advisory. In practice, any action taken by the Hegemony that conflicts with Imperial interests is subject to Imperial review and reversal. The distinction between nominal sovereignty and genuine governance has narrowed steadily in the centuries since the treaty was signed.
 
 **The Solarian Clause**
 The treaty's most consequential and least publicly acknowledged provision. Any Helian found to possess genuine Solarian abilities — as opposed to the technologically emulated abilities sanctioned for use by heir candidates — is to be reported to Imperial authorities. The handling of such individuals is the Empire's prerogative, not the Hegemony's.

@@ -81,7 +81,7 @@ What moves him, underneath the discipline, is something the order gave him no fr
 
 Marcus was born on [[Helios Prime]] as the seventh child of [[House Bellator]] in the current succession cycle. His birth was unremarkable by noble standards, another child produced through the [[Imperial Offering]]. He was born with silver hair and violet eyes, a rare pairing among the great houses, though neither trait alone was unheard of.
 
-Like all children of the succession cycle, Marcus was raised alongside dozens of noble siblings and rivals. Between the Bellator bloodline, collateral branches, and the children of allied houses, he grew up among nearly fifty brothers and sisters ranging from openly hostile to uncomfortably affectionate. In the Hegemony, noble children were never allowed solitude for long.
+Like all children of the succession cycle, Marcus was raised alongside dozens of noble siblings and rivals. Between the Bellator bloodline, collateral branches, and the children of allied houses, he grew up among [[The Forty-Nine|nearly fifty brothers and sisters]] ranging from openly hostile to uncomfortably affectionate. In the Hegemony, noble children were never allowed solitude for long.
 
 At the age of three they entered the academy system together, receiving the finest private instruction the empire could provide. Strategy, history, mathematics, diplomacy, combat, etiquette, and military doctrine were drilled into them relentlessly. Competition between heirs was expected. Mercy was not.
 
@@ -163,7 +163,7 @@ He received no special treatment despite being a Blue Sun. The order acknowledge
 
 As a Squire he went on countless missions with [[Phoenix]], training and learning his own abilities while helping maintain a rough peace in the outer rim. The order did this under no pretext of altruism — it is simply easier to justify testing your strength against those who have bad public relations.
 
-He was eventually dispatched on his Proving — a solo trial into Imperial space to locate, engage, and defeat a designated target. He succeeded. On his way out of Imperial territory, he was identified and apprehended by Imperial forces. 
+He was eventually dispatched on his [[The Proving|Proving]] — a solo trial into Imperial space to locate, engage, and defeat a designated target. He succeeded. On his way out of Imperial territory, he was identified and apprehended by Imperial forces. 
 
 By completing his trial he earned the name Corona within the order, reflecting their own history and his future potential.
 

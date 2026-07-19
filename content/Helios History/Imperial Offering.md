@@ -7,7 +7,7 @@ Upon the ascension of a new Hegemon, each of the seven dynasties presents **seve
 - **One Principal Wife** — elevated as the dynasty's primary court representative, she joins the [[Matrilium]]
 - **Six Concubines** — reinforce bonds between the throne and each house
 
-Each woman bears one child in order of rank, producing **seven children per dynasty**. Across the full seven-month calendar — one month per dynasty — **49 children** are born in total per succession cycle.
+Each woman bears one child in order of rank, producing **seven children per dynasty**. Across the full seven-month calendar — one month per dynasty — **[[The Forty-Nine|49 children]]** are born in total per succession cycle.
 
 ---
 
