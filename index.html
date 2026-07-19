@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css?v=10">
+<link rel="stylesheet" href="assets/css/styles.css?v=11">
 </head>
 <body data-palette="#6cc6ff,#e8c26a,#e5533d,#4fbf7b,#8b6fc4,#f08a3c">
 
@@ -113,6 +113,20 @@
       <!-- Marcus narrative rendered from the codex -->
     </div>
   </div>
+
+  <div class="twofaces reveal">
+    <h3 class="widget-title">Two Faces of A-7527</h3>
+    <p class="widget-note">The Empire holds an inmate in an orange jumpsuit. What it actually caged is an Eclipse Knight — and the second Blue Sun in Helian history. See what they filed, and what he is.</p>
+    <div class="tf-toggle" id="tfToggle" role="tablist" aria-label="Marcus's two faces">
+      <button data-face="inmate" class="is-active" role="tab" aria-selected="true">The Inmate</button>
+      <button data-face="knight" role="tab" aria-selected="false">The Knight</button>
+    </div>
+    <div class="tf-stage" id="tfStage">
+      <img class="tf-img tf-inmate is-active" loading="lazy" src="assets/img/marcus-prison-dormant.jpg" alt="Marcus as Inmate A-7527 in an orange prison jumpsuit, corona dormant.">
+      <img class="tf-img tf-knight" loading="lazy" src="assets/img/marcus-armor.jpg" alt="Marcus in his Eclipse Knight armor with a silver-and-blue cape and the blue sun of his people on his pauldron.">
+      <div class="tf-caption" id="tfCaption"></div>
+    </div>
+  </div>
 </section>
 
 <!-- ============ THE POWER ============ -->
@@ -121,6 +135,21 @@
     <span class="section-index">II</span>
     <h2 class="section-title">The Power</h2>
     <p class="section-kicker">A <a class="xlink" data-entry="solarian">Solarian</a> draws power from the light of stars. Marcus is a Blue Sun — the rarest and most extreme category ever theorized, and the only confirmed genuine Solarian of the modern era.</p>
+  </div>
+
+  <!-- Radiant Corona ignite -->
+  <div class="corona-show reveal">
+    <h3 class="widget-title">The Radiant Corona</h3>
+    <p class="widget-note">The phenomenon the order named him for. At significant output a wreath of blue-white solar light blazes into being above him — the corona of a Blue Sun. It cannot be concealed, and it is not decorative.</p>
+    <div class="corona-stage">
+      <div class="corona-frame" id="coronaFrame">
+        <img class="corona-img corona-base" loading="lazy" src="assets/img/marcus-armor.jpg" alt="Marcus in his armor, solar corona dormant.">
+        <img class="corona-img corona-lit" loading="lazy" src="assets/img/marcus-armor-corona.jpg" alt="Marcus with his blue solar corona ignited above his head.">
+      </div>
+      <button class="corona-btn" id="coronaBtn" aria-pressed="false">
+        <span class="cb-spark" aria-hidden="true">☀</span><span class="cb-label">Ignite the Corona</span>
+      </button>
+    </div>
   </div>
 
   <!-- Solar spectrum selector -->
@@ -298,7 +327,7 @@
   </div>
 </aside>
 
-<script src="assets/js/data.js?v=10"></script>
-<script src="assets/js/app.js?v=10"></script>
+<script src="assets/js/data.js?v=11"></script>
+<script src="assets/js/app.js?v=11"></script>
 </body>
 </html>

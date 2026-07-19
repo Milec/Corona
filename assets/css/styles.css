@@ -227,6 +227,41 @@ main,.footer{position:relative;z-index:2}
   font-family:var(--display);font-size:3.2em;line-height:.8;float:left;margin:.05em .12em 0 0;color:var(--gold);
   text-shadow:0 0 24px rgba(232,194,106,.4)}
 
+/* ============ TWO FACES (Prisoner) ============ */
+.twofaces{margin-top:clamp(50px,7vw,80px);text-align:center}
+.tf-toggle{display:inline-flex;gap:4px;padding:5px;border-radius:40px;border:1px solid var(--line);background:var(--panel);margin:22px auto 26px}
+.tf-toggle button{font-family:var(--ui);font-weight:600;font-size:15px;border:0;background:none;color:var(--muted);padding:11px 26px;border-radius:40px;cursor:pointer;transition:.3s}
+.tf-stage{position:relative;max-width:470px;margin:0 auto;aspect-ratio:1000/1358;border-radius:var(--radius);overflow:hidden;
+  border:1px solid var(--line-strong);box-shadow:var(--shadow);background:#04070e}
+.tf-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%;opacity:0;transition:opacity .6s ease}
+.tf-img.is-active{opacity:1}
+.tf-caption{position:absolute;left:0;right:0;bottom:0;padding:46px 22px 20px;text-align:left;
+  background:linear-gradient(0deg,rgba(4,6,12,.94),rgba(4,6,12,.6) 55%,transparent)}
+.tf-caption strong{display:block;font-family:var(--display);color:#fff;font-size:19px;letter-spacing:.02em;margin-bottom:4px}
+.tf-caption span{font-family:var(--serif);font-size:16px;color:var(--ink-2)}
+
+/* ============ RADIANT CORONA (Power) ============ */
+.corona-show{margin:clamp(8px,2vw,20px) 0 clamp(48px,7vw,72px);text-align:center}
+.corona-stage{margin-top:26px;display:flex;flex-direction:column;align-items:center;gap:24px}
+.corona-frame{position:relative;max-width:440px;width:100%;aspect-ratio:1000/1358;border-radius:var(--radius);
+  overflow:hidden;border:1px solid var(--line-strong);box-shadow:var(--shadow);background:#04070e}
+.corona-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.corona-lit{opacity:0;transition:opacity .7s ease}
+.corona-frame::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .7s ease;mix-blend-mode:screen;
+  background:radial-gradient(circle at 50% 20%,rgba(120,200,255,.55),rgba(47,111,208,.14) 40%,transparent 62%)}
+.corona-show.lit .corona-lit{opacity:1}
+.corona-show.lit .corona-frame{border-color:rgba(108,198,255,.6);box-shadow:0 0 50px -6px rgba(108,198,255,.45),var(--shadow)}
+.corona-show.lit .corona-frame::after{opacity:1;animation:coronaPulse 4s ease-in-out infinite}
+@keyframes coronaPulse{0%,100%{opacity:.85}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.corona-show.lit .corona-frame::after{animation:none}}
+.corona-btn{font-family:var(--ui);font-weight:600;font-size:15px;letter-spacing:.03em;border:1px solid var(--line-strong);
+  background:var(--panel);color:var(--ink);padding:13px 28px;border-radius:40px;cursor:pointer;transition:.3s;display:inline-flex;align-items:center;gap:10px}
+.corona-btn:hover{border-color:var(--solar)}
+.corona-btn .cb-spark{transition:.3s;font-size:16px}
+.corona-show.lit .corona-btn{background:linear-gradient(120deg,#6cc6ff,#2f6fd0);color:#04121f;border-color:transparent;
+  box-shadow:0 8px 30px -8px rgba(108,198,255,.6)}
+.corona-show.lit .corona-btn .cb-spark{filter:drop-shadow(0 0 7px #fff)}
+
 /* ============ THE POWER ============ */
 .widget-title{font-size:clamp(22px,3vw,28px);margin:0 0 8px;color:var(--ink)}
 .widget-note{color:var(--muted);margin:0 0 22px;max-width:70ch;font-size:17px}

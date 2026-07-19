@@ -254,6 +254,44 @@
     set("photon");
   }
 
+  /* ---------- two faces (inmate / knight) ---------- */
+  function buildTwoFaces() {
+    const toggle = $("#tfToggle"), stage = $("#tfStage"), cap = $("#tfCaption");
+    if (!toggle || !stage) return;
+    const faces = {
+      inmate: { cls: "tf-inmate", grad: "linear-gradient(120deg,#e8a24d,#c9622a)",
+        title: "Inmate A-7527", text: "Orange jumpsuit, sealed Solarian status, execution deferred. The file the Empire keeps." },
+      knight: { cls: "tf-knight", grad: "linear-gradient(120deg,#a7dbff,#2f6fd0)",
+        title: "Corona · Eclipse Knight", text: "Black-and-silver plate, the blue sun of his people on his shoulder. What his cell was built to contain." },
+    };
+    function set(face) {
+      const f = faces[face];
+      $$(".tf-img", stage).forEach((im) => im.classList.toggle("is-active", im.classList.contains(f.cls)));
+      $$("button", toggle).forEach((b) => {
+        const on = b.dataset.face === face;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-selected", on ? "true" : "false");
+        b.style.background = on ? f.grad : "none";
+        b.style.color = on ? "#04121f" : "";
+      });
+      cap.innerHTML = "<strong>" + f.title + "</strong><span>" + f.text + "</span>";
+    }
+    $$("button", toggle).forEach((b) => b.addEventListener("click", () => set(b.dataset.face)));
+    set("inmate");
+  }
+
+  /* ---------- radiant corona (ignite) ---------- */
+  function buildCorona() {
+    const show = $(".corona-show"), btn = $("#coronaBtn");
+    if (!show || !btn) return;
+    const lbl = btn.querySelector(".cb-label");
+    btn.addEventListener("click", () => {
+      const lit = show.classList.toggle("lit");
+      btn.setAttribute("aria-pressed", lit ? "true" : "false");
+      if (lbl) lbl.textContent = lit ? "Extinguish" : "Ignite the Corona";
+    });
+  }
+
   /* ---------- lifespan chart (SVG) ---------- */
   function buildChart() {
     const host = $("#lifespanChart");
@@ -604,6 +642,8 @@
   /* ---------- boot ---------- */
   document.addEventListener("DOMContentLoaded", () => {
     renderInlineEntries();
+    buildTwoFaces();
+    buildCorona();
     buildSpectrum();
     buildAttune();
     buildChart();
