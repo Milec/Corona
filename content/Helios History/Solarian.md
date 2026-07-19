@@ -121,7 +121,7 @@ Noble bloodlines manifested more frequently and more powerfully on average, whic
 ### Current Era (Post-Conquest)
 Helians born in the modern era are unaware of their natural potential. Even among the noble class, attempting to awaken Solarian power is forbidden — it violates [[The Eclipse Treaty]] and would invite consequences no house is willing to court.
 
-No natural-born true Solarian has been allowed to exist since the first emperor. On the rare occasion a child shows genuine aptitude, they are culled before they can mature into a usurper of the noble status quo — which is precisely why the survival of one, hidden and smuggled off-world, is the quiet catastrophe the modern order was built to prevent.
+No natural-born true Solarian has been allowed to exist since the first emperor. On the rare occasion a child shows genuine aptitude, they are culled before they can mature into a usurper of the noble status quo — which is precisely why the survival of one, hidden and smuggled off-world, is the quiet catastrophe the entire post-conquest arrangement exists to prevent.
 
 ### Artificial Emulation
 The technology distributed to modern [[Heir Candidacy System|heir candidates]] replicates the visual signature of Yellow Sun Photon attunement convincingly. A corona appears. Thermal output is produced. Physical augmentation is partial.
