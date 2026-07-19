@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" role="img" aria-label="Emblem of the Eclipse Knights: an eclipsed blue sun crowned with corona, over crossed swords and a laurel wreath.">
+<defs>
+  <radialGradient id="ekField" cx="50%" cy="42%" r="72%">
+    <stop offset="0%" stop-color="#0d1830"/>
+    <stop offset="55%" stop-color="#070c1c"/>
+    <stop offset="100%" stop-color="#03050c"/>
+  </radialGradient>
+  <linearGradient id="ekRim" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#bfe4ff"/>
+    <stop offset="50%" stop-color="#5aa0e6"/>
+    <stop offset="100%" stop-color="#22508f"/>
+  </linearGradient>
+  <radialGradient id="ekCorona" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="30%" stop-color="#cfeeff"/>
+    <stop offset="60%" stop-color="#66b8f2"/>
+    <stop offset="100%" stop-color="#1b4f96" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="ekDisc" cx="46%" cy="42%" r="62%">
+    <stop offset="0%" stop-color="#0a1122"/>
+    <stop offset="70%" stop-color="#05070f"/>
+    <stop offset="100%" stop-color="#020308"/>
+  </radialGradient>
+  <linearGradient id="ekSteel" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#59647a"/>
+    <stop offset="45%" stop-color="#d7e0ee"/>
+    <stop offset="55%" stop-color="#eef3fb"/>
+    <stop offset="100%" stop-color="#4a5568"/>
+  </linearGradient>
+  <linearGradient id="ekGold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#f0e3b8"/>
+    <stop offset="50%" stop-color="#c9a24a"/>
+    <stop offset="100%" stop-color="#8a6a26"/>
+  </linearGradient>
+  <linearGradient id="ekLeaf" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#bfe6ff"/>
+    <stop offset="100%" stop-color="#3f79c8"/>
+  </linearGradient>
+  <filter id="ekGlow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="ekSoft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="9"/>
+  </filter>
+  <path id="ekTopArc" d="M 67.18 198.04 A 133 133 0 0 1 332.82 198.04" fill="none"/>
+  <path id="ekBotArc" d="M 90.01 268.50 A 127 127 0 0 0 309.99 268.50" fill="none"/>
+</defs>
+
+<style>
+  .blade{fill:url(#ekSteel);stroke:#2b3242;stroke-width:1}
+  .blade-hi{fill:#f4f8ff;opacity:.7}
+  .guard{fill:url(#ekGold);stroke:#5c4718;stroke-width:.8}
+  .grip{fill:#26304a;stroke:none;stroke-width:0}
+  .pommel{fill:url(#ekGold);stroke:#5c4718;stroke-width:.8}
+  .pommel-hi{fill:#fff6da;opacity:.8}
+  .prom{fill:url(#ekCorona)}
+  .leaf{fill:url(#ekLeaf);stroke:#274d86;stroke-width:.5}
+  .stem{fill:none;stroke:#4f86c9;stroke-width:1.6}
+  .bandtext{fill:#dbe9ff;font-family:'Cinzel','Times New Roman',serif;font-weight:700;letter-spacing:5px}
+  .mottotext{fill:#8fb4e6;font-family:'Cinzel','Times New Roman',serif;font-weight:600;letter-spacing:3px}
+</style>
+
+<!-- outer aura -->
+<circle cx="200" cy="205" r="150" fill="#3a78c8" opacity="0.28" filter="url(#ekSoft)"/>
+
+<!-- crossed swords behind medallion -->
+<g transform="rotate(34 200 205)"><g class="sword">
+      <path class="blade" d="M 200 16 L 206 80 L 203 200 L 197 200 L 194 80 Z"/>
+      <path class="blade-hi" d="M 200 24 L 201.6 80 L 200.8 198 L 200 198 Z"/>
+      <rect class="guard" x="174" y="198" width="52" height="9" rx="3"/>
+      <rect class="grip" x="196" y="207" width="8" height="170" rx="4"/>
+      <circle class="pommel" cx="200" cy="388" r="11"/>
+      <circle class="pommel-hi" cx="196.8" cy="384.8" r="3.6"/>
+    </g></g>
+<g transform="rotate(-34 200 205)"><g class="sword">
+      <path class="blade" d="M 200 16 L 206 80 L 203 200 L 197 200 L 194 80 Z"/>
+      <path class="blade-hi" d="M 200 24 L 201.6 80 L 200.8 198 L 200 198 Z"/>
+      <rect class="guard" x="174" y="198" width="52" height="9" rx="3"/>
+      <rect class="grip" x="196" y="207" width="8" height="170" rx="4"/>
+      <circle class="pommel" cx="200" cy="388" r="11"/>
+      <circle class="pommel-hi" cx="196.8" cy="384.8" r="3.6"/>
+    </g></g>
+
+<!-- medallion -->
+<circle cx="200" cy="205" r="151" fill="url(#ekRim)"/>
+<circle cx="200" cy="205" r="147" fill="url(#ekField)"/>
+<circle cx="200" cy="205" r="147" fill="none" stroke="none" stroke-width="0"/>
+
+<!-- ring band -->
+<circle cx="200" cy="205" r="120" fill="none" stroke="#8fc4ff" stroke-width="1.2" opacity=".55"/>
+<circle cx="200" cy="205" r="146" fill="none" stroke="#9fd0ff" stroke-width="1" opacity=".5"/>
+<text class="bandtext" font-size="18"><textPath href="#ekTopArc" startOffset="50%" text-anchor="middle">THE ECLIPSE KNIGHTS</textPath></text>
+<text class="mottotext" font-size="11"><textPath href="#ekBotArc" startOffset="50%" text-anchor="middle">OBSCURED · NOT EXTINGUISHED</textPath></text>
+
+<!-- inner field -->
+<circle cx="200" cy="205" r="119" fill="url(#ekField)"/>
+
+<!-- apex spark -->
+<g transform="translate(200 92)" filter="url(#ekGlow)">
+  <path d="M 0 -14 L 3 -3 L 14 0 L 3 3 L 0 14 L -3 3 L -14 0 L -3 -3 Z" fill="url(#ekCorona)"/>
+</g>
+
+<!-- laurel wreath -->
+<g filter="url(#ekGlow)" opacity="0.96">
+<path class="stem" d="M 102.19 226.79 Q 133.29 288.38 200.00 306.00"/>
+<path class="leaf" d="M 102.19 226.79 Q 94.89 223.78 89.00 206.00 Q 93.45 209.35 102.19 226.79 Z"/>
+<path class="leaf" d="M 106.44 241.29 Q 99.36 239.22 91.28 222.57 Q 95.78 225.25 106.44 241.29 Z"/>
+<path class="leaf" d="M 112.82 254.99 Q 105.99 253.76 95.88 238.50 Q 100.38 240.56 112.82 254.99 Z"/>
+<path class="leaf" d="M 121.20 267.57 Q 114.59 267.15 102.57 253.52 Q 107.08 254.99 121.20 267.57 Z"/>
+<path class="leaf" d="M 131.38 278.74 Q 124.93 279.17 111.14 267.46 Q 115.70 268.30 131.38 278.74 Z"/>
+<path class="leaf" d="M 143.12 288.25 Q 136.82 289.65 121.41 280.15 Q 126.05 280.30 143.12 288.25 Z"/>
+<path class="leaf" d="M 156.16 295.88 Q 150.04 298.40 133.26 291.42 Q 137.96 290.76 156.16 295.88 Z"/>
+<path class="leaf" d="M 170.21 301.46 Q 164.40 305.25 146.57 301.09 Q 151.26 299.50 170.21 301.46 Z"/>
+<path class="leaf" d="M 184.93 304.86 Q 179.66 310.01 161.19 308.90 Q 165.73 306.29 184.93 304.86 Z"/>
+<path class="leaf" d="M 200.00 306.00 Q 195.54 312.51 176.92 314.57 Q 181.12 310.92 200.00 306.00 Z"/>
+<path class="stem" d="M 297.81 226.79 Q 266.71 288.38 200.00 306.00"/>
+<path class="leaf" d="M 297.81 226.79 Q 305.11 223.78 311.00 206.00 Q 306.55 209.35 297.81 226.79 Z"/>
+<path class="leaf" d="M 293.56 241.29 Q 300.64 239.22 308.72 222.57 Q 304.22 225.25 293.56 241.29 Z"/>
+<path class="leaf" d="M 287.18 254.99 Q 294.01 253.76 304.12 238.50 Q 299.62 240.56 287.18 254.99 Z"/>
+<path class="leaf" d="M 278.80 267.57 Q 285.41 267.15 297.43 253.52 Q 292.92 254.99 278.80 267.57 Z"/>
+<path class="leaf" d="M 268.62 278.74 Q 275.07 279.17 288.86 267.46 Q 284.30 268.30 268.62 278.74 Z"/>
+<path class="leaf" d="M 256.88 288.25 Q 263.18 289.65 278.59 280.15 Q 273.95 280.30 256.88 288.25 Z"/>
+<path class="leaf" d="M 243.84 295.88 Q 249.96 298.40 266.74 291.42 Q 262.04 290.76 243.84 295.88 Z"/>
+<path class="leaf" d="M 229.79 301.46 Q 235.60 305.25 253.43 301.09 Q 248.74 299.50 229.79 301.46 Z"/>
+<path class="leaf" d="M 215.07 304.86 Q 220.34 310.01 238.81 308.90 Q 234.27 306.29 215.07 304.86 Z"/>
+<path class="leaf" d="M 200.00 306.00 Q 204.46 312.51 223.08 314.57 Q 218.88 310.92 200.00 306.00 Z"/>
+</g>
+<!-- wreath tie -->
+<path d="M 188 296 Q 200 306 212 296" fill="none" stroke="#4f86c9" stroke-width="2"/>
+
+<!-- the eclipse -->
+<circle cx="200" cy="196" r="70" fill="url(#ekCorona)" opacity="0.5" filter="url(#ekSoft)"/>
+<g class="prom" filter="url(#ekGlow)">
+<path d="M 198.19 156.04 L 200.00 118.00 L 201.81 156.04 Z"/>
+<path d="M 213.62 158.39 L 222.09 142.67 L 216.97 159.78 Z"/>
+<path d="M 226.97 166.46 L 249.64 146.36 L 229.54 169.03 Z"/>
+<path d="M 236.22 179.03 L 247.56 176.30 L 237.61 182.38 Z"/>
+<path d="M 239.96 194.19 L 278.00 196.00 L 239.96 197.81 Z"/>
+<path d="M 237.61 209.62 L 251.89 217.49 L 236.22 212.97 Z"/>
+<path d="M 229.54 222.97 L 248.54 244.54 L 226.97 225.54 Z"/>
+<path d="M 216.97 232.22 L 219.10 242.12 L 213.62 233.61 Z"/>
+<path d="M 201.81 235.96 L 200.00 274.00 L 198.19 235.96 Z"/>
+<path d="M 186.38 233.61 L 177.91 249.33 L 183.03 232.22 Z"/>
+<path d="M 173.03 225.54 L 150.36 245.64 L 170.46 222.97 Z"/>
+<path d="M 163.78 212.97 L 152.44 215.70 L 162.39 209.62 Z"/>
+<path d="M 160.04 197.81 L 122.00 196.00 L 160.04 194.19 Z"/>
+<path d="M 162.39 182.38 L 148.11 174.51 L 163.78 179.03 Z"/>
+<path d="M 170.46 169.03 L 151.46 147.46 L 173.03 166.46 Z"/>
+<path d="M 183.03 159.78 L 180.90 149.88 L 186.38 158.39 Z"/>
+</g>
+<circle cx="200" cy="196" r="46" fill="url(#ekDisc)"/>
+<circle cx="200" cy="196" r="46" fill="none" stroke="url(#ekCorona)" stroke-width="4" filter="url(#ekGlow)"/>
+<circle cx="200" cy="196" r="46" fill="none" stroke="#eaf6ff" stroke-width="1.4" opacity=".9"/>
+<!-- corona spill crescent (lower-left) -->
+<path d="M 236.00 226.21 A 47 47 0 0 1 153.18 200.10" fill="none" stroke="#ffffff" stroke-width="2.4" opacity=".85" filter="url(#ekGlow)"/>
+</svg>
