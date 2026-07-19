@@ -16,7 +16,7 @@ That made the pairing deliberate. The order does not hand its rarest and most da
 
 Phoenix took Marcus as an Aspirant and raised him through Squire — years of drills, doctrine, and missions across the outer rim, learning to command the fire he had been born with rather than be commanded by it. Phoenix gave him no special treatment for being a Blue Sun; the order's creed is that potential is not strength, and Phoenix enforced it without exception. Marcus earned every advancement the same way as anyone.
 
-What Phoenix drilled hardest was not how to burn, but how not to. A Blue Sun who loses control does not simply miss — he levels the room, and if he dies in the doing, the blast is measured in geography. So Phoenix taught him to hold the corona at the edge of release and keep it there, for hours if a mission asked it: to be a loaded thing that does not go off until its bearer decides. It is the same discipline that now keeps him still in an Imperial cell — though neither of them could have known, then, what it would one day be for.
+What Phoenix drilled hardest was not how to burn, but how not to. A Blue Sun who loses control does not simply miss — he levels the room, and if he dies in the doing, the blast is measured in geography. So Phoenix taught him to hold that fire at the edge of release and keep it there, for hours if a mission asked it: to be a loaded thing that does not go off until its bearer decides. It is the same discipline that now keeps him still in an Imperial cell — though neither of them could have known, then, what it would one day be for.
 
 Beneath the severity was something the order has no rank for. Phoenix never said it, and Marcus never asked. It did not need to be said.
 
