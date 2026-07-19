@@ -191,9 +191,9 @@ main,.footer{position:relative;z-index:2}
 .rich tr:last-child td{border-bottom:0}
 
 /* ============ THE PRISONER / dossier ============ */
-.dossier{display:grid;grid-template-columns:340px 1fr;gap:clamp(28px,4vw,56px);align-items:start}
-.dossier-card{position:sticky;top:96px}
-.idcard{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line-strong);
+.dossier{display:grid;grid-template-columns:340px 1fr;gap:clamp(28px,4vw,56px);align-items:stretch}
+.dossier-card{align-self:stretch}
+.idcard{position:sticky;top:96px;background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line-strong);
   border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
 .idcard-top{display:flex;flex-direction:column;gap:4px;padding:16px 18px;
   background:linear-gradient(90deg,rgba(229,83,61,.14),transparent);border-bottom:1px solid var(--line)}
@@ -376,8 +376,9 @@ main,.footer{position:relative;z-index:2}
 .tl-more{font-family:var(--ui);font-size:12px;color:var(--solar-soft);margin-top:9px;display:inline-block}
 
 /* ============ ECLIPSE KNIGHTS ============ */
-.order-grid{display:grid;grid-template-columns:340px 1fr;gap:clamp(26px,4vw,50px);align-items:start}
-.ranks{position:sticky;top:96px}
+.order-grid{display:grid;grid-template-columns:340px 1fr;gap:clamp(26px,4vw,50px);align-items:stretch}
+.ranks{align-self:stretch}
+.ranks-inner{position:sticky;top:96px}
 .rank-ladder{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-direction:column;gap:12px}
 .rank-item{border:1px solid var(--line);border-radius:var(--radius-sm);padding:15px 18px;background:var(--panel);
   position:relative;transition:.25s;border-left:3px solid var(--rc,var(--solar))}
@@ -449,7 +450,7 @@ main,.footer{position:relative;z-index:2}
 /* ============ RESPONSIVE ============ */
 @media (max-width:980px){
   .dossier,.world-grid,.houses-explorer,.order-grid{grid-template-columns:1fr}
-  .dossier-card,.ranks{position:static}
+  .idcard,.ranks-inner{position:static}
   .idcard-photo{aspect-ratio:1076/900}
   .houses-rail{flex-direction:row;flex-wrap:wrap}
   .house-tab{flex:1 1 45%;min-width:180px}
