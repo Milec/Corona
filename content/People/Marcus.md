@@ -159,25 +159,27 @@ And never enough.
 
 ![[marcus-armor.png]]
 
-Marcus came to [[The Eclipse Knights]] as a young child — old enough to remember the nobility and status of Helios Prime, but young enough to be shaped entirely by the order. He trained as an Aspirant, then a Squire, developing under the mentorship of a Blade named [[Phoenix]] assigned to his development.
+Marcus came to [[The Eclipse Knights]] as a young child — old enough to remember the nobility and status of [[Helios Prime]], too young to keep them. Whatever he had been on his homeworld, [[Penumbra]] did not care. Beyond the Terminus Belt a title is only a story a person tells about themselves, and the habitat around the blue sun had no patience for stories. It measured its people by one thing, and he had arrived with none of it. He was not a prince there. He was a nameless Aspirant who had yet to prove he was worth training at all.
 
-He received no special treatment despite being a Blue Sun. The order acknowledged that he held the potential to change worlds — but potential is not the thing they measure. He lacked what matters most: strength. Should he one day earn it, the order would welcome him as a leader and an ally. Until then, he would earn everything else the same way as anyone.
+[[Phoenix]], the Blade assigned to his development, made that the first lesson and never softened it. A Green Sun who ended fights with the smallest possible expenditure, Phoenix regarded the volcanic excess of a Blue Sun child as a fault to be corrected rather than a gift to be flattered. Marcus was given no allowance for what he was. He drilled beside squires with a fraction of his ceiling and twice his discipline, failed against them, bled, and drilled again — and slowly, over years, closed the distance between the two.
 
-As a Squire he went on countless missions with [[Phoenix]], training and learning his own abilities while helping maintain a rough peace in the outer rim. The order did this under no pretext of altruism — it is simply easier to justify testing your strength against those who have bad public relations.
+He received no special treatment despite being a Blue Sun. The order acknowledged that he held the potential to change worlds — but potential is not the thing they measure. He lacked what matters most: strength. Should he one day earn it, the order would welcome him as a leader and an ally. Until then, he would earn everything else the way everyone did.
 
-He was eventually dispatched on his [[The Proving|Proving]] — a solo trial into Imperial space to locate, engage, and defeat a designated target. He succeeded. On his way out of Imperial territory, he was identified and apprehended by Imperial forces. 
+As a Squire he went out with [[Phoenix]] into the outer rim — pirate anchorages, slaver stations, warlords grown comfortable at the edge of Imperial attention. The order framed none of it as charity; it is simply easier to justify testing your strength against those with bad public relations. But Marcus watched which targets Phoenix chose and which they left untouched, and drew his own conclusions about what the order's cold doctrine was quietly keeping alive. Somewhere in those years the discipline stopped being a thing done to him and became a thing that was his.
 
-By completing his trial he earned the name Corona within the order, reflecting their own history and his future potential.
+He was eventually dispatched on his [[The Proving|Proving]] — the solo trial that turns a Squire into a Blade. Alone, into Imperial space, to locate and defeat a target the order judged a true measure of him. He succeeded. What it cost him, and what he learned about himself in the doing, he has told no one.
+
+On his way out of Imperial territory he was identified and apprehended. By completing the trial he had earned the name **Corona** — for the outermost light of an eclipsed sun, and for the crown the order believed he might one day be worth. He wore it for the length of a single passage home before the Empire took everything else.
 
 ---
 
 ## Imprisonment
 
-The Empire chose not to execute him. The political reasoning is documented in [[The Eclipse Treaty]] — executing a known Eclipse Knight member, particularly one with genuine Solarian ability, would constitute a provocation the Empire currently considers unnecessary.
+The Empire chose not to execute him. The reasoning is documented in [[The Eclipse Treaty]]: killing a known [[The Eclipse Knights|Eclipse Knight]] with genuine Solarian ability would be a provocation the Empire currently judges unnecessary. There is a colder reason beneath the political one. A [[Solarian]]'s death is not a quiet thing — the stellar pressure of a lifetime releases all at once — and triggering that inside a populated Imperial facility, from a Blue Sun no less, is a cost no administrator wants his name on. His own body is the best argument for keeping it breathing.
 
-He is held as **Inmate A-7527**. His abilities are not publicly acknowledged by Imperial administration. He is officially categorized as a dangerous individual of interest, with his Solarian status classified.
+He is held as **Inmate A-7527**. His abilities appear in no record a guard could read; officially he is a dangerous individual of interest, Solarian status classified, his handling reserved to authorities most of the facility has never met. He gives them nothing to add to the file. He does not rage against the containment field, does not test the walls, does not argue his case to men who could not release him if they wished to. He is patient in the exact way the order taught him to be patient — the patience of someone waiting for the single moment worth spending, willing to let a thousand lesser ones pass unused.
 
-The Eclipse Knights are aware he was captured. They have not moved to retrieve him — not because they have abandoned him, but because the order thinks in terms of what is survivable, and a direct extraction is not.
+The [[The Eclipse Knights|Eclipse Knights]] know he was taken. They have not moved to retrieve him — not from abandonment, but because the order thinks in terms of what is survivable, and a direct extraction is not. [[Solas]] has run the calculation and will not spend the order on a single Blade, however rare he may be. [[Phoenix]] — whatever Phoenix makes of that ruling — has said nothing on the record. So Marcus sits in the hum of recycled air and containment current: a supernova the Empire is too careful to light, letting them all believe the waiting is the same thing as surrender.
 
 ---
 ## Present
