@@ -29,9 +29,20 @@ Pure static HTML / CSS / vanilla JS — no framework, no build step.
 - `assets/css/styles.css` — the cosmic-imperial theme.
 - `assets/js/app.js` — all interactivity (starfield, drawer/cross-link system, spectrum,
   attunement, SVG chart, houses explorer, timeline, codex search).
-- `assets/js/data.js` — the codex content, auto-generated from the Obsidian markdown notes
-  (headings, tables, image embeds, and `[[wikilinks]]` converted to interactive cross-links).
+- `content/` — the **source of truth** for all lore: the Obsidian-style markdown notes,
+  organized by folder (People, Helios History, Helios Hegemony, The Seven Great Houses,
+  Continents). Edit these to change the story.
+- `tools/build_data.py` — converts `content/` into `assets/js/data.js` (headings, tables,
+  image embeds, and `[[wikilinks]]` become interactive cross-links). Run `python3 tools/build_data.py`
+  after editing any note.
+- `assets/js/data.js` — generated codex content. Do not edit by hand; regenerate from `content/`.
 - `assets/img/` — the portrait, house sigils (cropped from the source sheet), and continent art.
+
+### Editing the lore
+
+1. Edit the relevant file under `content/`.
+2. Run `python3 tools/build_data.py` to regenerate `assets/js/data.js`.
+3. Commit both the changed note and the regenerated `data.js`.
 
 ## Deployment
 
