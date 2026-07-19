@@ -83,7 +83,7 @@ Marcus was born on [[Helios Prime]] as the seventh child of [[House Bellator]] i
 
 Like all children of the succession cycle, Marcus was raised alongside dozens of noble siblings and rivals. Between the Bellator bloodline, collateral branches, and the children of allied houses, he grew up among [[The Forty-Nine|nearly fifty brothers and sisters]] ranging from openly hostile to uncomfortably affectionate. In the Hegemony, noble children were never allowed solitude for long.
 
-At the age of three they entered the academy system together, receiving the finest private instruction the empire could provide. Strategy, history, mathematics, diplomacy, combat, etiquette, and military doctrine were drilled into them relentlessly. Competition between heirs was expected. Mercy was not.
+At the age of three they entered the academy system together, receiving the finest private instruction the Hegemony could provide. Strategy, history, mathematics, diplomacy, combat, etiquette, and military doctrine were drilled into them relentlessly. Competition between heirs was expected. Mercy was not.
 
 What no one expected was Marcus.
 
