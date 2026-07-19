@@ -24,6 +24,8 @@ The name a Blade earns is not decorative. It is chosen to reflect both the order
 
 On his way out of Imperial territory, he was identified and apprehended. His is the rare Proving that was completed and undone in a single stroke: a Squire who became a Blade in the eyes of the order, and a prisoner in the eyes of the Empire, in the same passage home.
 
+What the trial actually asked of him — the target he was set against, and what he had to become to put it down — is a thing he carried back alone and has never once set down where another could see it.
+
 Whether his target was chosen to test him or to remove someone the order wanted gone — and whether a name, once earned, can ever be taken back — are not questions the order answers aloud.
 
 ---
