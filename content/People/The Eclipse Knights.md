@@ -12,7 +12,7 @@ The Eclipse Knights are a hyper-militaristic order of [[Solarian]] warriors oper
 
 The order is obsessed with strength — not as an end in itself, but as the only honest measure of worth in a universe that respects nothing else. Weakness is not condemned. It is simply not accommodated.
 
-Over the centuries their society has grown into a sprawling space habitat orbiting a blue sun — a place where Helians are still born, and still learn to manifest Solarian power, though on a minuscule scale compared to the height of the Helios Hegemony.
+Over the centuries their society has grown into [[Penumbra]] — a sprawling space habitat orbiting a blue sun, where Helians are still born, and still learn to manifest Solarian power, though on a minuscule scale compared to the height of the Helios Hegemony.
 
 ---
 
@@ -52,7 +52,7 @@ The order is organized around a strict hierarchy of demonstrated ability. Title 
 
 ## The Proving
 
-Every squire who seeks full membership must complete the Proving — a solo trial dispatched by the order. The nature of the target varies; what does not vary is that the squire must locate, engage, and defeat a target judged by the order to be a meaningful test of their current ability. There is no time limit. There is no assistance.
+Every squire who seeks full membership must complete [[The Proving]] — a solo trial dispatched by the order. The nature of the target varies; what does not vary is that the squire must locate, engage, and defeat a target judged by the order to be a meaningful test of their current ability. There is no time limit. There is no assistance.
 
 Squires who return having succeeded are elevated to Blade. Squires who do not return are mourned and remembered. Squires who return having failed to complete the trial may attempt again after a period of further training — but only once.
 
