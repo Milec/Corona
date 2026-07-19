@@ -23,3 +23,13 @@ Their efficiency appears to arise from a phenomenon known as the Fusion Lattice 
 As a result, Helian science can refine bloodlines, but cannot create them. For this reason, the nobility turned to selective breeding, arranged unions, and lineage preservation.
 
 In the [[Helios Hegemony]], blood itself became the final frontier of science.
+
+---
+
+## Connections
+
+- [[Helian Race]]
+- [[Solarian]]
+- [[The Seven Noble Dynasties]]
+- [[Helios Hegemony]]
+- [[Marcus]]
