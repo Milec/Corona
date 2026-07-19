@@ -43,3 +43,14 @@ Though no confirmed case has ever been documented, forgotten ancient theories su
 A baseline, unawakened Helian is comparable to an Olympic-level human athlete, with a natural lifespan reaching into the 150s.
 
 An Awakened Helian cannot be reasonably quantified; the difference between the two is immensely vast.
+
+---
+
+## Connections
+
+- [[Helion Nodes]]
+- [[Solarian]]
+- [[Helios Hegemony]]
+- [[Helios Prime]]
+- [[Helios System]]
+- [[Imperial Offering]]
