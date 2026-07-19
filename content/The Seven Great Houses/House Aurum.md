@@ -33,6 +33,7 @@ Principal Wife of House Aurum to the current Hegemon and sitting member of the [
 
 - **Cassia Caerulius Aurum Sept** — Patriarch, [[Patrilium]] representative
 - **Lyris Aurum** — Principal Wife, [[Matrilium]] representative
+- **[[Juno Caerulius Aurum Prima|Juno]]** — Lyris's daughter, a leading heir candidate of the current cycle, and the childhood love of [[Marcus]]
 
 ---
 

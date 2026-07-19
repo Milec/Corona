@@ -34,6 +34,7 @@ Principal Wife of House Bellator to the current Hegemon and sitting member of th
 - **Rael Caerulius Ensis Sexta** — Patriarch, [[Patrilium]] representative
 - **Draea Ensis** — Principal Wife, [[Matrilium]] representative
 - **[[Marcus]]** (A-7527, *Corona*) — seventh child of the seventh family in the current cycle; a true [[Solarian]] exiled in secret by his mother
+- **[[Lucia Ensis|Lucia Ensis]]** — sixth concubine of the current cycle and mother of Marcus; executed for the loss of the Bellator heir apparent
 
 ---
 
