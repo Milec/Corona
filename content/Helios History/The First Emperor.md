@@ -35,7 +35,7 @@ Here is the wound the Hegemony has never been able to close. For millennia its b
 
 Then a child was born to the last house of the current cycle, exiled in secret before the court could learn what he was.
 
-The first Blue Sun built the order that rules [[Helios Prime]]. What the second does with the same fire has not yet been written — and there is no one left alive who knows what it means for a second sun to rise over a throne that was only ever meant to have one.
+The first Blue Sun forged the Hegemony and the throne that still stands over [[Helios Prime]] — a civilization that has since been conquered, hollowed out, and turned against the very power that founded it. What the second does with that same fire has not yet been written, and there is no one left alive who knows what it means for a second sun to rise over a throne that was only ever meant to have one.
 
 ---
 
