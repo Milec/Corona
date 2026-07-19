@@ -514,16 +514,29 @@
   }
 
   function initReveal() {
-    if (reduceMotion) { $$(".reveal").forEach((e) => e.classList.add("in")); $("#sevenCount")?.classList.add("in"); return; }
-    // threshold:0 so elements taller than the viewport still reveal — a tall
-    // element can never reach an 8% intersection ratio, which would leave it
-    // stuck invisible (a huge blank gap) on small screens.
-    const io = new IntersectionObserver((ents) => {
-      ents.forEach((en) => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
-    }, { rootMargin: "0px 0px -10% 0px", threshold: 0 });
-    $$(".reveal").forEach((e) => io.observe(e));
     const sc = $("#sevenCount");
-    if (sc) new IntersectionObserver((e, o) => { e.forEach((x) => { if (x.isIntersecting) { sc.classList.add("in"); o.disconnect(); } }); }).observe(sc);
+    if (reduceMotion) { $$(".reveal").forEach((e) => e.classList.add("in")); sc && sc.classList.add("in"); return; }
+    // Simple geometry-based reveal instead of IntersectionObserver: reveal any
+    // element whose top has scrolled into view. This is bullet-proof for
+    // elements far taller than the viewport (an IO intersection *ratio* can
+    // never reach a threshold for such elements, which left them stuck invisible).
+    let pending = $$(".reveal");
+    function check() {
+      const vh = window.innerHeight || document.documentElement.clientHeight;
+      pending = pending.filter((e) => {
+        if (e.getBoundingClientRect().top < vh * 0.92) { e.classList.add("in"); return false; }
+        return true;
+      });
+      if (sc && !sc.classList.contains("in") && sc.getBoundingClientRect().top < vh * 0.95) sc.classList.add("in");
+    }
+    let ticking = false;
+    function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(() => { ticking = false; check(); }); } }
+    check();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll, { passive: true });
+    window.addEventListener("load", check);
+    // Failsafe: if scroll events somehow never fire, nothing stays hidden.
+    setTimeout(check, 1200);
   }
 
   function initHeroVerse() {
