@@ -43,7 +43,7 @@ A high-order manifestation associated with advanced control and heightened solar
 An extremely rare manifestation representing the upper limits of confirmed Solarian evolution. Blue Suns generate vastly greater energy output than all lower spectra and typically awaken earlier and more violently. Their presence alone is often enough to destabilize surrounding environments through heat, pressure, and radiant force. The bloodline programs of the [[Helios Hegemony]] were primarily dedicated to producing Blue Suns, with only limited success across millennia.
 
 ---
-## Abilities (PF2e Framework)
+## Abilities in Play
 
 Solarian abilities in play are governed by the interplay between two opposing states — **Photon** and **Graviton** — which the Solarian shifts between through their actions in and out of combat.
 
@@ -114,14 +114,14 @@ The Eclipse Knights account for this in their doctrine. No Solarian is permitted
 ## Manifestation
 
 ### Historical (Pre-Conquest)
-Before the Algalterian conquest, Solarian manifestation among Helians was not exclusive to the nobility. A significant portion of the general population carried latent aptitude. The conditions that triggered awakening — environment, circumstance, and what fragmentary accounts describe as a threshold state of *readiness* — are no longer known. The knowledge was deliberately destroyed.
+Before the Algalterian conquest, Solarian manifestation among Helians was not exclusive to the nobility. A significant portion of the general population carried latent aptitude. The conditions that triggered awakening — environment, circumstance, and what fragmentary accounts describe as a threshold state of *readiness* — are no longer known within the Hegemony. The knowledge was deliberately destroyed in the purge; what survived of it, survived only with the exiles who carried it beyond Imperial reach and became [[The Eclipse Knights]].
 
 Noble bloodlines manifested more frequently and more powerfully on average, which is why selective breeding produced results. But average was not exclusive.
 
 ### Current Era (Post-Conquest)
 Helians born in the modern era are unaware of their natural potential. Even among the noble class, attempting to awaken Solarian power is forbidden — it violates [[The Eclipse Treaty]] and would invite consequences no house is willing to court.
 
-No natural born True Solarian has existed since the first emperor, but should a child be born with a high aptitude they are usually culled to prevent a usurper to the Noble status quo.
+No natural-born true Solarian has been allowed to exist since the first emperor. On the rare occasion a child shows genuine aptitude, they are culled before they can mature into a usurper of the noble status quo — which is precisely why the survival of one, hidden and smuggled off-world, is the quiet catastrophe the modern order was built to prevent.
 
 ### Artificial Emulation
 The technology distributed to modern [[Heir Candidacy System|heir candidates]] replicates the visual signature of Yellow Sun Photon attunement convincingly. A corona appears. Thermal output is produced. Physical augmentation is partial.
