@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CORONA — Marcus Caerulius Bellator Sept · A Starfinder 2e Codex</title>
+<meta name="description" content="The interactive backstory of Marcus — 'Corona', Inmate A-7527 — a Blue Sun Solarian, exiled prince of the Helios Hegemony, and Eclipse Knight. A Starfinder 2e character codex.">
+<meta name="author" content="Milec">
+<meta property="og:title" content="CORONA — The Codex of Marcus, A-7527">
+<meta property="og:description" content="Exiled prince. Blue Sun Solarian. Eclipse Knight. An interactive Starfinder 2e character codex.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/marcus-portrait.jpg">
+<meta name="theme-color" content="#05060b">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-palette="#6cc6ff,#e8c26a,#e5533d,#4fbf7b,#8b6fc4,#f08a3c">
+
+<!-- animated starfield -->
+<canvas id="starfield" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header id="nav" class="nav">
+  <a class="brand" href="#top" aria-label="Corona — home">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-text">CORONA</span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#prisoner">The Prisoner</a>
+    <a href="#power">The Power</a>
+    <a href="#world">The World</a>
+    <a href="#houses">Seven Houses</a>
+    <a href="#history">History</a>
+    <a href="#order">Eclipse Knights</a>
+    <a href="#codex">Codex</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-portrait" aria-hidden="true">
+    <div class="corona-glow"></div>
+    <img src="assets/img/marcus-portrait.jpg" alt="Marcus, the Blue Sun Solarian, in an Imperial prison jumpsuit marked A-7527, a blue solar laurel crown burning above his head.">
+    <div class="hero-portrait-fade"></div>
+  </div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Inmate&nbsp;·&nbsp;A-7527 &nbsp;|&nbsp; Starfinder 2e Character Codex</p>
+    <h1 class="hero-title">CORONA</h1>
+    <p class="hero-sub">Marcus Caerulius Bellator&nbsp;<span class="sept">Sept</span></p>
+    <div class="hero-verse" id="heroVerse" aria-label="Character prologue">
+      <span data-line>Fleets blotting out the heavens.</span>
+      <span data-line>Millions chanting his name beneath burning suns.</span>
+      <span data-line>Cities drowned in holy sun fire.</span>
+      <span data-line class="verse-cry">“SIC SEMPER TYRANNIS.”</span>
+      <span data-line class="verse-quiet">Then silence. Cold metal. Recycled air. Blood on concrete.</span>
+      <span data-line class="verse-quiet">The hum of an Imperial containment field.</span>
+      <span data-line class="verse-final">He opens his eyes to darkness and chains.</span>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-solar" href="#prisoner">Open the Dossier</a>
+      <a class="btn btn-ghost" href="#codex">Browse the Codex</a>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#prisoner" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ============ THE PRISONER ============ -->
+<section class="section" id="prisoner" data-section>
+  <div class="section-head reveal">
+    <span class="section-index">I</span>
+    <h2 class="section-title">The Prisoner</h2>
+    <p class="section-kicker">The seventh child of the seventh house — statistically the least likely of forty-nine ever to rule, and the only true Solarian of his age.</p>
+  </div>
+
+  <div class="dossier">
+    <aside class="dossier-card reveal">
+      <div class="idcard">
+        <div class="idcard-top">
+          <span class="idcard-tag">IMPERIAL DETENTION · CLASSIFIED</span>
+          <span class="idcard-num">A-7527</span>
+        </div>
+        <div class="idcard-photo">
+          <img src="assets/img/marcus-portrait.jpg" alt="Portrait of Marcus, Inmate A-7527.">
+        </div>
+        <dl class="idcard-stats">
+          <div><dt>Personal Name</dt><dd>Marcus</dd></div>
+          <div><dt>Order Name</dt><dd class="hot">Corona</dd></div>
+          <div><dt>Solar Color</dt><dd><span class="dot dot-blue"></span>Blue Sun</dd></div>
+          <div><dt>Race</dt><dd><a class="xlink" data-entry="helian-race">Human Solarian</a></dd></div>
+          <div><dt>Father's Line</dt><dd><a class="xlink" data-entry="caerulius-bloodline">Caerulius</a></dd></div>
+          <div><dt>Mother's House</dt><dd><a class="xlink" data-entry="house-bellator">Ensis · Bellator</a></dd></div>
+          <div><dt>Cognomen</dt><dd>Sept — sixth concubine's child</dd></div>
+          <div><dt>Allegiance</dt><dd><a class="xlink" data-entry="eclipse-knights">The Eclipse Knights</a></dd></div>
+        </dl>
+        <div class="idcard-warn">
+          <strong>⚠ Containment Notice</strong>
+          <span>Subject's death triggers an uncontrolled supernova-scale release. Execution deferred. Solarian status sealed.</span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="dossier-body reveal" id="marcusBody" data-entry-render="marcus">
+      <!-- Marcus narrative rendered from the codex -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE POWER ============ -->
+<section class="section" id="power" data-section>
+  <div class="section-head reveal">
+    <span class="section-index">II</span>
+    <h2 class="section-title">The Power</h2>
+    <p class="section-kicker">A <a class="xlink" data-entry="solarian">Solarian</a> draws power from the light of stars. Marcus is a Blue Sun — the rarest and most extreme category ever theorized, and the only confirmed genuine Solarian of the modern era.</p>
+  </div>
+
+  <!-- Solar spectrum selector -->
+  <div class="spectrum reveal">
+    <h3 class="widget-title">The Solar Spectrum</h3>
+    <p class="widget-note">A Solarian's color is fixed at birth and follows the lifecycle of stars — from coolest to hottest, youngest to most extreme. It sets the ceiling of their power.</p>
+    <div class="spectrum-bar" id="spectrumBar" role="tablist" aria-label="Solar colors"></div>
+    <div class="spectrum-detail" id="spectrumDetail" aria-live="polite"></div>
+  </div>
+
+  <!-- Attunement toggle -->
+  <div class="attune reveal">
+    <h3 class="widget-title">Attunement</h3>
+    <p class="widget-note">In play, a Solarian shifts between two opposing states. Click to attune.</p>
+    <div class="attune-toggle" id="attuneToggle">
+      <button data-mode="photon" class="is-active"><span class="a-ico">☀</span> Photon</button>
+      <button data-mode="graviton"><span class="a-ico">⬤</span> Graviton</button>
+    </div>
+    <div class="attune-stage" id="attuneStage">
+      <div class="attune-orb" id="attuneOrb"></div>
+      <div class="attune-copy" id="attuneCopy"></div>
+    </div>
+  </div>
+
+  <!-- Lifespan chart -->
+  <div class="lifespan reveal">
+    <h3 class="widget-title">Stellar Stages &amp; the Helian Lifespan</h3>
+    <p class="widget-note">Among Helians, advancement follows a bell curve. Early stages extend life far beyond the baseline; past the peak of <em>Main Sequence — Prime</em>, each stage burns through the body to sustain greater output. A level-20 Solarian may be 1,400 years old with only decades left.</p>
+    <div class="chart-shell">
+      <div id="lifespanChart" class="chart"></div>
+      <div class="chart-legend" id="lifespanLegend"></div>
+    </div>
+    <button class="table-toggle" id="lifespanTableBtn" aria-expanded="false">Show data table</button>
+    <div class="table-wrap chart-table" id="lifespanTable" hidden></div>
+  </div>
+</section>
+
+<!-- ============ THE WORLD ============ -->
+<section class="section" id="world" data-section>
+  <div class="section-head reveal">
+    <span class="section-index">III</span>
+    <h2 class="section-title">The World</h2>
+    <p class="section-kicker">The <a class="xlink" data-entry="helios-hegemony">Helios Hegemony</a> — a solar civilization built on selective breeding, martial hierarchy, and an obsession with the number seven. Once it ruled a star system. Now it is a conquered vassal, quietly hollowed out from within.</p>
+  </div>
+
+  <div class="world-grid">
+    <article class="feature reveal" data-entry-render="helios-prime" data-render-mode="feature" data-feature-img="assets/img/aegyrium-wide.jpg"></article>
+    <div class="world-side">
+      <div class="gov reveal">
+        <h3 class="widget-title">The Solar Throne</h3>
+        <div class="gov-tree">
+          <button class="gov-node gov-top xlink" data-entry="caerulius-bloodline">
+            <span class="gov-role">The Hegemon</span>
+            <span class="gov-name">Caerulius Bloodline</span>
+          </button>
+          <div class="gov-branch">
+            <button class="gov-node xlink" data-entry="patrilium">
+              <span class="gov-role">Patrilium</span>
+              <span class="gov-name">Seven Patriarchs · State &amp; War</span>
+            </button>
+            <button class="gov-node xlink" data-entry="matrilium">
+              <span class="gov-role">Matrilium</span>
+              <span class="gov-name">Seven Principal Wives · Court &amp; Succession</span>
+            </button>
+          </div>
+          <div class="gov-foot">
+            <button class="gov-node xlink" data-entry="seven-dynasties"><span class="gov-name">The Seven Noble Dynasties</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="seven reveal">
+        <h3 class="widget-title">The Rule of Seven</h3>
+        <p class="widget-note">Seven continents. Seven houses. Seven months. Seven children per dynasty per cycle. Forty-nine children born each succession. Whether tradition or deliberate terraforming, no scholar can say.</p>
+        <div class="seven-count" id="sevenCount" aria-hidden="true"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="world-chips reveal">
+    <span class="chips-label">Read deeper:</span>
+    <a class="chip xlink" data-entry="helios-hegemony">Helios Hegemony</a>
+    <a class="chip xlink" data-entry="helian-race">The Helian Race</a>
+    <a class="chip xlink" data-entry="helion-nodes">Helion Nodes</a>
+    <a class="chip xlink" data-entry="caerulius-bloodline">Caerulius Bloodline</a>
+    <a class="chip xlink" data-entry="imperial-offering">The Imperial Offering</a>
+    <a class="chip xlink" data-entry="heir-candidacy">Heir Candidacy</a>
+    <a class="chip xlink" data-entry="helios-system">Helios System</a>
+    <a class="chip xlink" data-entry="algalterian-empire">The Algalterian Empire</a>
+  </div>
+</section>
+
+<!-- ============ SEVEN HOUSES ============ -->
+<section class="section" id="houses" data-section>
+  <div class="section-head reveal">
+    <span class="section-index">IV</span>
+    <h2 class="section-title">The Seven Great Houses</h2>
+    <p class="section-kicker">Each of <a class="xlink" data-entry="seven-dynasties">the seven noble dynasties</a> governs one continent of <a class="xlink" data-entry="helios-prime">Helios Prime</a> and one pillar of civilization. Choose a sigil.</p>
+  </div>
+
+  <div class="houses-explorer reveal">
+    <div class="houses-rail" id="housesRail" role="tablist" aria-label="The seven houses"></div>
+    <div class="house-panel" id="housePanel" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ HISTORY ============ -->
+<section class="section" id="history" data-section>
+  <div class="section-head reveal">
+    <span class="section-index">V</span>
+    <h2 class="section-title">History of the Conquest</h2>
+    <p class="section-kicker">The wars killed millions. The betrayal that ended them cost more. What the <a class="xlink" data-entry="imperial-conquest">Imperial Conquest</a> took was not territory — it was the memory of what the Helian people once were.</p>
+  </div>
+  <ol class="timeline reveal" id="timeline"></ol>
+</section>
+
+<!-- ============ ECLIPSE KNIGHTS ============ -->
+<section class="section" id="order" data-section>
+  <div class="section-head reveal">
+    <span class="section-index">VI</span>
+    <h2 class="section-title">The Eclipse Knights</h2>
+    <p class="section-kicker">Founded by survivors of the conquest, the order exists to preserve true Solarian ability and ensure it is never again extinguished. They think in generations. Strength is the only truth that cannot be falsified.</p>
+  </div>
+
+  <div class="order-grid">
+    <div class="ranks reveal">
+      <h3 class="widget-title">The Ladder of Strength</h3>
+      <p class="widget-note">Title is earned, never inherited. Aspirants lose the right to a name — and reclaim one only by completing the Proving.</p>
+      <ol class="rank-ladder" id="rankLadder"></ol>
+    </div>
+    <div class="order-body reveal" data-entry-render="eclipse-knights" data-render-mode="feature"></div>
+  </div>
+</section>
+
+<!-- ============ CODEX ============ -->
+<section class="section" id="codex" data-section>
+  <div class="section-head reveal">
+    <span class="section-index">VII</span>
+    <h2 class="section-title">The Codex</h2>
+    <p class="section-kicker">Thirty-two interconnected records — every person, power, house, and world in Marcus's story. Search, filter, and follow the links between them.</p>
+  </div>
+
+  <div class="codex-controls reveal">
+    <div class="codex-search">
+      <input type="search" id="codexSearch" placeholder="Search the codex…" aria-label="Search the codex" autocomplete="off">
+    </div>
+    <div class="codex-filters" id="codexFilters" role="group" aria-label="Filter by category"></div>
+  </div>
+  <div class="codex-grid" id="codexGrid"></div>
+  <p class="codex-empty" id="codexEmpty" hidden>No records match your search.</p>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-mark" aria-hidden="true"></div>
+  <p class="footer-line">CORONA · The Codex of Marcus, A-7527</p>
+  <p class="footer-sub">A character codex for a <strong>Starfinder&nbsp;2e</strong> campaign. Worldbuilding &amp; character by Milec. Solarian is a class of the <em>Starfinder</em> system.</p>
+  <p class="footer-cry">“Sic semper tyrannis.”</p>
+</footer>
+
+<!-- ============ CODEX DRAWER ============ -->
+<div class="drawer-scrim" id="drawerScrim" hidden></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+  <div class="drawer-bar">
+    <button class="drawer-back" id="drawerBack" aria-label="Back" hidden>‹ Back</button>
+    <span class="drawer-cat" id="drawerCat"></span>
+    <button class="drawer-close" id="drawerClose" aria-label="Close">✕</button>
+  </div>
+  <div class="drawer-scroll" id="drawerScroll">
+    <h2 class="drawer-title" id="drawerTitle"></h2>
+    <p class="drawer-tag" id="drawerTag"></p>
+    <div class="drawer-content" id="drawerContent"></div>
+  </div>
+</aside>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
