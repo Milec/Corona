@@ -67,10 +67,10 @@ ALIAS = {
 
 # image embed filename -> web asset path (relative to site root)
 IMG = {
-    "4DB22FE7-2FFB-47FA-9795-9969E9E935B1.png": "assets/img/marcus-portrait.jpg",
-    "marcus-armor.png": "assets/img/marcus-armor.jpg",
-    "marcus-armor-corona.png": "assets/img/marcus-armor-corona.jpg",
-    "marcus-prison-dormant.png": "assets/img/marcus-prison-dormant.jpg",
+    "4DB22FE7-2FFB-47FA-9795-9969E9E935B1.png": "assets/img/marcus-portrait.jpg?v=20261029",
+    "marcus-armor.png": "assets/img/marcus-armor.jpg?v=20261029",
+    "marcus-armor-corona.png": "assets/img/marcus-armor-corona.jpg?v=20261029",
+    "marcus-prison-dormant.png": "assets/img/marcus-prison-dormant.jpg?v=20261029",
     "eclipse-knights-emblem.svg": "assets/img/eclipse-knights-emblem.svg",
     "A7D6D2A8-3F35-4773-801D-76B2015F1F74.png": "assets/img/house-sigils.jpg",
     "9B22AEE5-4114-40FC-B524-E63842FC2ACE.png": "assets/img/aegyrium-wide.jpg",
@@ -353,3 +353,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
